@@ -24,9 +24,11 @@ function dec(n) {
 }
 
 function makeInt(n, base) {
-  if (makeInt(n.toString())).toEqual(a)) {
-    return parseInt(n);
-  }
+ if (makeInt(n) === n) {
+   return makeInt(n);
+ } else if (base === 10) {
+   
+ }
 }
 
 describe('makeInt(n)', function() {
