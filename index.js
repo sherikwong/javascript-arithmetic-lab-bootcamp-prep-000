@@ -27,7 +27,9 @@ function makeInt(n, base) {
  if (makeInt(n) === n) {
    return makeInt(n);
  } else if (base === 10) {
-   
+   return 0;
+ } else {
+   return NaN;
  }
 }
 
