@@ -24,16 +24,13 @@ function dec(n) {
 }
 
 function makeInt(n, base) {
-  if () {
-    
-  }
+  if (base !== 10) {
+    return 0;
+  } else {
   return parseInt(n, base);
-  
+  }
 }
 
-  it('assumes base 10', function() {
-    expect(makeInt('0x2328')).toEqual(0)
-  })
 
 
 function preserveDecimal(n) {
